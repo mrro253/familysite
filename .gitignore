@@ -1,0 +1,57 @@
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore virtual environment (Python)
+venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore environment variables
+.env
+*.sqlite3
+
+# Ignore log files
+logs/
+*.log
+
+# Ignore Flask cache and instance folder
+instance/
+*.db
+.mypy_cache/
+__pycache__/
+
+# Ignore compiled files
+*.so
+
+# Ignore node modules (React)
+frontend/node_modules/
+frontend/.parcel-cache/
+
+# Ignore build files (React)
+frontend/build/
+
+# Ignore dependency lock files (optional, but keep if needed)
+# package-lock.json
+# yarn.lock
+
+# Ignore editor/IDE config files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.bak
+
+# Ignore Git LFS pointers (if using LFS)
+.gitattributes
+
+# Ignore coverage and test artifacts
+coverage/
+.nyc_output/
+jest/
+
+# Ignore temporary files
+*.tmp
+*.temp
