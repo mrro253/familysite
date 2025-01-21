@@ -6,23 +6,6 @@ body {
   padding: 0;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
-li {
-  display: inline;
-  padding: 20px;
-}
-
-.dashboard {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 20px;
-}
-
 .greeting {
   background-color: #c4a000;
   opacity: .7;
